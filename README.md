@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+Monday 7th, 2019
 
 ### Project Title
-Replace the Project Title
+Git - Proj. Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+This project is to save our bikeshare project onto our Git page and to update with documentation.
 
 ### Files used
-Include the files used
+Bikeshare.py
+Chicago.csv
+Washington.csv
+new_york_city.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
