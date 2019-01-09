@@ -171,7 +171,7 @@ def user_stats(df):
         print("  {}: {}".format(user_counts.index[index], user_count))
 
     # Display counts of gender
-    print("\nCounts of Gender:\n")
+    print("\nCount for each Gender:\n")
 
     found_gender = False
     found_birthyear = False
