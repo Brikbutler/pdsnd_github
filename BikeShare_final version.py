@@ -22,7 +22,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s explore some US bikeshare data! Including data from Chicago, Washington, and New York City')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input("Please choose a city you want to learn more about from the following: Chicago, New York City or Washington. \n> ").lower(
@@ -171,8 +171,16 @@ def user_stats(df):
         print("  {}: {}".format(user_counts.index[index], user_count))
 
     # Display counts of gender
+<<<<<<< HEAD
     print("\nCounts of Gender:\n")
 
+||||||| merged common ancestors
+    print("\nCounts of Gender:\n")
+  
+=======
+    print("\nCount for each Gender:\n")
+
+>>>>>>> refactoring
     found_gender = False
     found_birthyear = False
 
@@ -205,9 +213,18 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+<<<<<<< HEAD
 
 
 def display_raw(df):
+||||||| merged common ancestors
+ 
+def display_raw(df):
+=======
+
+
+def display_raw_data(df):
+>>>>>>> refactoring
     """
     Displays only five rows of the data at a time.
     Input:
@@ -267,8 +284,16 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
+<<<<<<< HEAD
         display_raw(df)
 
+||||||| merged common ancestors
+        display_raw(df)
+        
+=======
+        display_raw_data(df)
+
+>>>>>>> refactoring
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
