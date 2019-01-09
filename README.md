@@ -8,10 +8,10 @@ Git - Project Bikeshare
 This project is to save our bikeshare project onto our Git page and to update with documentation.
 
 ### Files used
-Bikeshare.py
-Chicago.csv
-Washington.csv
-new_york_city.csv
+Bikeshare.py&nbsp;
+Chicago.csv&nbsp;
+Washington.csv&nbsp;
+new_york_city.csv&nbsp;
 
 ### Credits
 No credits to give yet!
